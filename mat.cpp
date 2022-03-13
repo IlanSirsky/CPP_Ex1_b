@@ -4,7 +4,7 @@
 #include <vector>
 
 using namespace std;
-string ariel::mat(int row, int col, char c1, char c2){
+string ariel::mat(int col, int row, char c1, char c2){
     if (row % 2 == 0 || col % 2 == 0){
         throw invalid_argument("Row or column must be an odd number");
     }

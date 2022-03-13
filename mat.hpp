@@ -7,7 +7,7 @@
 
 
 namespace ariel {
-    std::string mat(int row, int col, char c1, char c2);
+    std::string mat(int col, int row, char c1, char c2);
 }
 
 #endif
